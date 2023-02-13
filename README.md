@@ -1,1 +1,1 @@
-Some utils like functions, configurarions, etc 😛
+Some utils like functions, configurations, etc 😛
