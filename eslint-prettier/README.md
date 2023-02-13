@@ -55,7 +55,7 @@ If you want to change in vscode open the settings window `Ctrl+,` and search for
   "eslint.validate": ["javascript"]
 ```
 
-I dont recommend use this on your user or workspace profile because you may have projects that dont use ESLint. Instead enable this only in your project, for that create the `.vscode` folder in the root of your project and create inside a file `settings.json` with this code.
+I dont recommend use this on your user or workspace profile because you may have projects that dont use ESLint. Instead enable this only in your project, for that create the `.vscode` folder in the root of your project and create inside a file `settings.json` with this code above.
 
 ## I want more info
 

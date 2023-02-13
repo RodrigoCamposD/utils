@@ -1,8 +1,9 @@
 /**
  * @description Google Script function that's sends email for just submited form
- * 1. acess app script in your form page and click in script editor
+ * 1. acess app script in your form page clicking in script editor
  * 2. create a function and put this code in
  * 3. create a trigger for every submited form
+ * 4. remember to update the code for your case
  */
 function newSendEmail() {
   const form = FormApp.getActiveForm();
@@ -18,7 +19,7 @@ function newSendEmail() {
     // this two lines above dependes on the "Email" and "Name" titles on form
     // updating the variables replyTo and name above to better customized email
     if (el.getItem().getTitle() === "Email") replyTo = el.getResponse();
-    if (el.getItem().getTitle() === "Nome Completo") name = el.getResponse();
+    if (el.getItem().getTitle() === "Name") name = el.getResponse();
   });
   const subject = `Form sent by ${name}`;
   try {
