@@ -42,9 +42,9 @@ Prettier wants to remove commas like suggested by ES5 and airbnb wants to put it
 }
 ```
 
-## optional
-
 If you want to change in vscode open the settings window `Ctrl+,` and search for `@ext:esbenp.prettier-vscode comma`.
+
+## optional
 
 ### ESLint auto fix
 
