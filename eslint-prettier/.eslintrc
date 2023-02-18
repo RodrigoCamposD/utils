@@ -18,5 +18,8 @@
     "no-console": "off",
     "no-process-exit": "off",
     "no-unused-vars": ["error", { "argsIgnorePattern": "req|res|next|val|" }]
+  },
+  "engines": {
+    "node": ">=18.14.0"
   }
 }
