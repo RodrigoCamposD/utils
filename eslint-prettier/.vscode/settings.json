@@ -1,6 +1,13 @@
 {
+  "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "eslint.validate": ["javascript"]
+  "eslint.validate": ["javascript"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "workbench.colorTheme": "Dracula",
+  "tabnine.experimentalAutoImports": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.defaultProfile.windows": "Git Bash"
 }
