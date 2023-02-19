@@ -42,17 +42,28 @@ Prettier wants to remove commas like suggested by ES5 and airbnb wants to put it
 }
 ```
 
-If you want to change in vscode open the settings window `Ctrl+,` and search for `@ext:esbenp.prettier-vscode comma`.
+If you want to change in vscode globaly open the settings (user or workspace) window `Ctrl+,` and search for `@ext:esbenp.prettier-vscode comma`.
+
+### 1.4 default formatter
+
+You can select the default formatter to ESLint configuring in `settings.json` in `.vscode` folder.
+
+```json
+"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+```
+
+I dont recommend use this on your user or workspace profile because you may have projects that dont use ESLint.
+See that file in this project folder the example. This maybe avoid the problem above (1.3).
 
 ## 2. optional
 
 ### 2.1 ESLint auto fix
 
 ```json
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "eslint.validate": ["javascript"]
+"editor.codeActionsOnSave": {
+  "source.fixAll.eslint": true
+},
+"eslint.validate": ["javascript"]
 ```
 
 I dont recommend use this on your user or workspace profile because you may have projects that dont use ESLint. Instead enable this only in your project, for that create the `.vscode` folder in the root of your project and create inside a file `settings.json` with this code above.
