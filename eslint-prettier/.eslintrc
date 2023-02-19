@@ -6,7 +6,7 @@
     "node": true
   },
   "plugins": ["prettier"],
-  "extends": ["prettier", "plugin:node/recommended", "airbnb"],
+  "extends": ["prettier", "airbnb"],
   "overrides": [],
   "parserOptions": {
     "ecmaVersion": "latest"
@@ -18,8 +18,5 @@
     "no-console": "off",
     "no-process-exit": "off",
     "no-unused-vars": ["error", { "argsIgnorePattern": "req|res|next|val|" }]
-  },
-  "engines": {
-    "node": ">=18.14.0"
   }
 }
